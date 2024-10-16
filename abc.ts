@@ -1,1 +1,5 @@
-const a =10;
+function a() {
+  console.log("abc");
+}
+
+a();
