@@ -5,7 +5,9 @@ conf();
 const _config = {
 
   port: process.env.port,
-  database_URL: process.env.mongo_connection_string
+  database_URL: process.env.mongo_connection_string,
+
+  enviornment: process.env.NODE_ENV,
 
 };
 
