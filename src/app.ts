@@ -1,7 +1,6 @@
-import express, { NextFunction, Request, Response } from "express"; // use lowercase "express"
+import express from "express"; // use lowercase "express"
 
-import createHttpError, { HttpError } from "http-errors";
-import { config } from "./config/config";
+import createHttpError from "http-errors";
 import Global_Error_handler from "./middleware/globalErrorHandler";
 
 const app = express(); // call express() to create the app instance
